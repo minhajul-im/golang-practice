@@ -1,17 +1,5 @@
-# Blog Post
+# minhaj's diary
 
-Hey there! আমার আগের কিছু post লিখা আছে আমি এইগুলা নিয়মিত পা
-
-**What is Runtime Environments?** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/Runtime-Environments.md)
-
-**What is JavaScript Engine (V8)?** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/Runtime-Environments.md)
-
-**"this" keyword in JavaScript 1st Part!** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/%22this%22%20keyword%20in%20JavaScript%201st%20Part.md)
-
-**"this" keyword in JavaScript 2nd Part!** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/%22this%22%20keyword%20in%20JavaScript%202nd%20Part%20.md)
-
-**Understanding Hosting in JavaScript** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/hosting-in%20javascript.md)
-
-**Scope, Scope Chain & Lexical Environment** [read the post](https://github.com/minhajul-im/Blog-Post/blob/main/javascript/scope-scope_chain-lexical_environment.md)
-
-নতুন পোস্টগুলোর জন্য অপেক্ষা করুন এবং আপনার মতামত জানাতে ভুলবেন না!
+আমি এইখানে আমার লিখা গুলা পাবলিশ করতেছি এবং করতেই থাকব।
+আমি আমার নিজের শিখতে গিয়ে এবং শিখার পর আমি নিজেই অনেক বিষয় নিয়ে লিখি সেগুলা এইখানে পাবলিশ করতেছি।
+আপনি যদি fundamental concept গুলা পড়তে চান তাহলে এই article গুলা পড়লে আপনার উপকার হবে বলে আমার বিশ্বাস।
