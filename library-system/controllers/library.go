@@ -1,21 +1,21 @@
 package controllers
 
 import (
-	"github.com/minhaj/library-system/interfaces"
-	"github.com/minhaj/library-system/models"
+	"fmt"
+
 	"github.com/minhaj/library-system/services"
 )
 
-func getName(n interfaces.Namer) {
-	println(n.GetName())
-}
-
 func Library() {
-	john := models.NewUser(1, "John", "john@gmail.com")
-	book := models.NewBook(1, "Go Lang", "Mark Henry")
+	books := services.ListOfBooks()
+	users := services.ListOfUsers()
 
-	result := services.Borrowed(book, john)
+	for _, user := range users {
+		fmt.Println(user.GetName())
+	}
 
-	println(result)
+	for _, book := range books {
+		fmt.Println(book.GetName())
+	}
 
 }
