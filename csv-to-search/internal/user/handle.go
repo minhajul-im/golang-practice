@@ -2,7 +2,6 @@ package user
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/http"
 	"strings"
 	"time"
@@ -34,7 +33,6 @@ func UserSignin(w http.ResponseWriter, r *http.Request) {
 
 		SendSuccessRes(w, http.StatusOK, data)
 
-		fmt.Println(token)
 		return
 	}
 
@@ -59,7 +57,7 @@ func UserSignout(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if parts[1] == token {
-		fmt.Println(token)
+
 		token = ""
 		data := Signout{
 			Message: "Signout successful!",
